@@ -1,0 +1,9 @@
+package com.redhat.demos.dm.loan.rules
+
+rule "My Test Rule"
+no-loop
+when
+then
+	System.out.println("TEST rule");
+end
+
